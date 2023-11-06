@@ -1,0 +1,41 @@
+body{
+    background-color: orange;
+}
+
+#header{
+    background-color: violet;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+#header h1{
+    color: white;
+}
+#header blockquote{
+    background-color: yellow;
+    border: 2px dotted;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+}
+.gambar img{
+    width: 20%;
+    margin-right: 12%;
+    margin-left: 15%;
+}
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 20%;
+}
+.fp::first-letter{
+    color: aqua;
+    font-size: 30px;
+}
